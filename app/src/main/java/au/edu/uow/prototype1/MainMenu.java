@@ -80,17 +80,31 @@ public class MainMenu extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_notifications) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_calendar) {
+
+            setContentView(R.layout.calendar_menu);
+
+        } else if (id == R.id.nav_events_viewer) {
+
+            setContentView(R.layout.events_menu);
 
         } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_courses) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_group) {
+
+        }
+
+        else if (id == R.id.nav_chat) {
+
+        }
+        else if (id == R.id.nav_contacts) {
+
+        }
+        else if (id == R.id.nav_options) {
 
         }
 

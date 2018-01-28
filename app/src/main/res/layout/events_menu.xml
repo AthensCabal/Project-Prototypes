@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Events Viewer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <GridView
+        android:layout_width="385dp"
+        android:layout_height="140dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="46dp">
+
+    </GridView>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Jan 7"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="374dp"
+        android:layout_height="88dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Example events."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+</android.support.constraint.ConstraintLayout>
