@@ -84,13 +84,11 @@ public class MainMenu extends AppCompatActivity
 
         } else if (id == R.id.nav_calendar) {
 
-            setContentView(R.layout.calendar_menu);
 
         } else if (id == R.id.nav_events_viewer) {
 
-            setContentView(R.layout.events_menu);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_options) {
 
         } else if (id == R.id.nav_courses) {
 
