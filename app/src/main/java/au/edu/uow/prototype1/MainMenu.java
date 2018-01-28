@@ -1,5 +1,6 @@
 package au.edu.uow.prototype1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -83,11 +84,11 @@ public class MainMenu extends AppCompatActivity
         if (id == R.id.nav_notifications) {
 
         } else if (id == R.id.nav_calendar) {
-
-
+            Intent intent = new Intent(this, Calendar.class);
+            startActivity(intent);
         } else if (id == R.id.nav_events_viewer) {
-
-
+            Intent intent = new Intent(this, Events.class);
+            startActivity(intent);
         } else if (id == R.id.nav_options) {
 
         } else if (id == R.id.nav_courses) {
